@@ -14,7 +14,8 @@
 git clone https://github.com/alibaba/cluster-contrast-reid.git
 cd ClusterContrast
 python setup.py develop
-# conda install environment
+
+# install environment with conda
 # conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 faiss-gpu tensorboardX h5py  -c pytorch
 ```
 

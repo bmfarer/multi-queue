@@ -1,7 +1,7 @@
 ![Python >=3.5](https://img.shields.io/badge/Python->=3.6-blue.svg)
 ![PyTorch >=1.6](https://img.shields.io/badge/PyTorch->=1.6-yellow.svg)
 
-# Cluster Contrast for Unsupervised Person Re-Identification
+# Multi Queue for Unsupervised Person Re-identification
 
 **Our unified framework**
 ![framework](figs/framework.png)

@@ -11,12 +11,13 @@
 ### Installation
 
 ```shell
-git clone https://github.com/alibaba/cluster-contrast-reid.git
-cd ClusterContrast
-python setup.py develop
+git clone https://github.com/bmfarer/multi-queue.git
+# install environment with conda
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 faiss-gpu tensorboardX h5py  -c pytorch
 
 # install environment with conda
-# conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 faiss-gpu tensorboardX h5py  -c pytorch
+# pip install -r requirement.txt
+python setup.py develop
 ```
 
 ### Prepare Datasets
@@ -28,7 +29,7 @@ Download the person datasets Market-1501,MSMT17,PersonX,DukeMTMC-reID and the ve
 Then unzip them under the directory like
 
 ```
-ClusterContrast/examples/data
+examples/data
 ├── market1501
 │   └── Market-1501-v15.09.15
 ├── msmt17

@@ -13,7 +13,7 @@
 ```shell
 git clone https://github.com/bmfarer/multi-queue.git
 # install environment with conda
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 faiss-gpu tensorboardX h5py  -c pytorch
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 faiss-gpu tensorboardX h5py -c pytorch
 
 # install environment with pip
 # pip install -r requirement.txt

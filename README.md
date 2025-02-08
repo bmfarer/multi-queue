@@ -25,7 +25,7 @@ python setup.py develop
 ```shell
 cd examples && mkdir data
 ```
-Download the person datasets Market-1501,MSMT17,PersonX,DukeMTMC-reID and the vehicle datasets VeRi-776 from [aliyun](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/data.zip).
+Download the person datasets Market-1501,MSMT17,PersonX,DukeMTMC-reID and the vehicle datasets VeRi-776 from [aliyun](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/data.zip)(provided by [Cluster Contrast](https://github.com/alibaba/cluster-contrast-reid.git)).
 Then unzip them under the directory like
 
 ```

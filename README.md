@@ -45,7 +45,7 @@ examples/data
 
 ## Training
 
-We utilize 4 TITAN-Xp GPUs for training. For more parameter configuration, please check **`run_code.sh`**.
+We utilize 4 TITAN-Xp GPUs for training. For more parameter configuration, please check **`ablation_notemp.sh`** and **`ablation_temp.sh`**.
 
 **examples:**
 

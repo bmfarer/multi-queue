@@ -4,6 +4,7 @@
 # Multi Queue for Unsupervised Person Re-identification
 
 **Our unified framework**
+
 <img src="figs/framework.png">
 
 ## Requirements
@@ -86,6 +87,7 @@ Training on **`2 GTX1080`**, you can get results as followed.
 CUDA_VISIBLE_DEVICES=0,1 python examples/multi_queue_usl.py -b 128 -a resnet50 -d market1501 --iters 200 --momentum 0.1 --eps 0.6 --num-instances 16 --lr 0.000175 --epochs 100
  CUDA_VISIBLE_DEVICES=0,1 python examples/multi_queue_infomap.py -b 128 -a resnet50 -d market1501 --iters 200 --momentum 0.1 --eps 0.5 --k1 15 --k2 4 --num-instances 16 --lr 0.00175 --epochs 100
 ```
+
 <img src="figs/result.png">
 
 # Acknowledgements

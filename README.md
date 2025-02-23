@@ -4,7 +4,7 @@
 # Multi Queue for Unsupervised Person Re-identification
 
 **Our unified framework**
-![framework](figs/framework.png)
+< img src="figs/framework.png">
 
 ## Requirements
 
